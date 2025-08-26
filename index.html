@@ -4,30 +4,23 @@
     <meta charset="UTF-8">
     <title>Simple Table</title>
     <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #6dd5ed 100%);
+        }
+        .hello {
+            color: #fff;
+            font-size: 3rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-            <th>Header 3</th>
-        </tr>
-        <tr>
-            <td>Row 1, Cell 1</td>
-            <td>Row 1, Cell 2</td>
-            <td>Row 1, Cell 3</td>
-        </tr>
-        <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-        </tr>
-    </table>
+    <div class="hello">Hello World</div>
 </body>
 </html>
